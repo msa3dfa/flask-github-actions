@@ -2,7 +2,8 @@ name: Push Docker image
 
 on:
   push:
-    - main
+    branches:
+      - main
 
 jobs:
   push_image:
